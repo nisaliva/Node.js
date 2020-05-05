@@ -3,7 +3,7 @@ const express = require('express')
 const fetch = require('node-fetch')
 const app = express()
 
-const apiUrl = "https://reservation100-sandbox.mxapps.io/rest-doc/api"
+const apiUrl = "https://reservation100-sandbox.mxapps.io/api/reservations"
 const port = process.env.PORT || 3000
 
 const body = {
